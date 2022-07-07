@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Jeopardy</h1>
+        <form id="newgame" action="/" method="post">
+            <input type="text" name="count" placeholder="Number of clues" required>
+            <input type="text" name="offset" placeholder="Clue offset" required>
+            <button type="submit" name="submit">New Game</button>
+        </form>
+        <div id="jeopardyGrid"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
